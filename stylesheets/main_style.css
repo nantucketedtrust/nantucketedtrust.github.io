@@ -1,0 +1,270 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@font-face {
+	font-family: Capture_it;
+	src: url('../fonts/Capture_it.ttf') format('truetype');
+}
+@font-face {
+	font-family: JosefinSlab-Regular;
+	src: url('../fonts/JosefinSlab-Regular.ttf') format('truetype');
+}
+body {
+    background-color: #fff;
+    font-size: 1em;
+    line-height: 1.3em;
+    font-family: JosefinSlab-Regular, 'Times New Roman',Georgia, serif;
+}
+.main-header {
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+    background-image: url(../images/lightpaperfibers.png);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+.main-header .slogan {
+    display: none;
+}
+.main-navbar .navbar {
+    list-style-type: none;
+    text-align: center;
+    width: 880px;
+    margin: 0 auto;
+}
+.main-navbar .navbar li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.main-navbar .navbar li.logo  img{
+    border-radius: 86px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+
+}
+.main-navbar .navbar li a {
+    text-decoration: none;
+    color: #1e1e50;
+    padding: 10px;
+    -webkit-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.main-navbar .navbar li a:hover {
+    border-bottom: solid 1px;
+    color: #808080;
+}
+p a { 
+    text-decoration: none; 
+    color: #1e1e50;
+
+}
+p a:hover { 
+    text-decoration: underline;
+
+}
+.main-navbar .navbar li.logo a:hover {
+    opacity:1;
+    color: #000;
+}
+.main-content {
+    width: 800px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+.main-content .content-ul {
+    list-style: disc;
+    margin:10px 0 10px 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.main-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    line-height: 1.5em;
+}
+.main-content #page_3 h6 {
+    text-align:center;
+}
+.main-content .bold {
+    font-weight: bold;
+}
+.main-content .banner {
+    margin: 0px auto 10px auto;
+}
+.main-content .slogan {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    display: none;
+} 
+.main-content #page_1, #page_2, #page_3, #page_4, #page_5, #page_6 {
+    margin: 35px 0;
+}
+.main-content section h2 {
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: JosefinSlab-Regular, 'Times New Roman',Georgia, serif;
+    -webkit-text-shadow: 0px 0px 5px #fff;
+    text-shadow: 0px 0px 5px #fff;
+    margin: 50px 0 30px;
+    text-align: center;
+    border-bottom: 3px solid #ccc;
+    line-height: 0em;
+    color: #1e1e50;
+}
+.main-content .no-bg {
+    
+    background-color: #fff;
+    padding: 0 10px;
+    height: 1.4em;
+}
+.entire-width { 
+    min-width: 100%; 
+
+}
+.mobile-logo {
+    display: none;
+    width: 90px;
+    height: 90px;
+    margin: 5px 10px 0 5px;
+    border-radius: 86px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.mobile-logo img {
+    width: 90px;
+    height: 90px;
+}
+
+
+
+
+/*--------------------------------------media queries-------------------------*/
+@media only screen and (max-width: 800px) {
+    .main-header {
+        height: 50px!important;
+    }
+    .navbar {
+        display: none;
+
+    }
+    .mobile-logo {
+        display: block;
+    }
+    .main-content {
+        margin: 70px 5% 70px 5%;
+        max-width: 90%;
+        
+    }
+    .main-content .banner {
+        max-width: 80%;
+    }
+    .main-content .banner .entire-width  {
+        max-width: 100%;
+    }
+    .mobile-menu {
+        display: block;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+    .mobile-menu span {
+        display:block;
+        height: 7px;
+        border-bottom: 3px solid #fff;
+    }
+    
+    .show-on-mobile { 
+        display: block;
+        background-color: rgba(30, 30, 80, 0.9);
+        opacity: 0.9;
+        text-align: right !important;
+        padding: 10px 0 15px 0;
+        width: 150px !important;
+        position: absolute;
+        top: 52px;
+        right: 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    .show-on-mobile .logo {
+        display: none !important;
+    }
+    .show-on-mobile li {
+        display: block !important;
+    }
+    .main-header .slogan {
+        display: block;
+        margin: -88px 0 0 110px;
+        color: rgb(215, 211, 211);
+        font-size: 1.1em;
+    }
+
+    /*---------------------mobile navigation light version---------------------*/
+
+    .show-on-mobile-light {
+        display: block;
+        text-align: right !important;
+        padding: 10px 0 15px 0;
+        width: 150px !important;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        background: url('../images/lightpaperfibers.png');
+        opacity: 0.9;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    .show-on-mobile-light li {
+        display: block !important;
+    }
+    .show-on-mobile-light .logo {
+        display: none !important;
+    }
+    .mobile-menu-light span {
+        border-bottom: 3px solid  rgba(30, 30, 80, 1);
+    }
+    .main-header .slogan-light {
+        color: #1e1e50;
+    }
+    
+}
+@media only screen and (max-width: 550px)  {
+    .main-header .slogan {
+        margin: -78px 0 0 110px;
+    }
+    .main-header .slogan span {
+        display: none;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .main-header .slogan {
+        display: none;
+    }
+    .mobile-logo, .mobile-logo img {
+        width: 70px;
+        height: 70px;
+    }
+}
