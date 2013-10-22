@@ -4,11 +4,46 @@
 <head>
     <title>Nantucket Education Trust</title>
     <link href="stylesheets/main_style.css" rel="stylesheet" />
+    <style>
+
+        /*override defaults */
+
+        .main-header {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            font-weight: 600;
+            height: 130px;
+            left: 0;
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-image: none;
+            background: #1e1e50;
+        }
+        
+        .main-content section h2 {
+
+            border-bottom: 0.2em solid #CCCCCC;
+
+        }
+
+        .main-navbar .navbar li a {
+
+            color: #cccccc;
+
+        }
+        .main-navbar .navbar li.logo img {
+
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+
 </head>
 <body>
     <section class="wrapper">
         <header class="main-header">
-            <div class="mobile-logo"><img src="images/logo.png" /></div> <!-- This is the logo which is going to be displayed when the website is opened on a smart phone or another mobile device with a smaller screen resolution-->
+            <div class="mobile-logo"><img src="images/logo.png" /></div><!-- This is the logo which is going to be displayed when the website is opened on a smart phone or another mobile device with a smaller screen resolution-->
             
             <nav class="main-navbar">
                 <ul class="navbar" id="navbar">
@@ -20,7 +55,7 @@
                     <li><a href="#">HISTORY</a></li>
                     <li><a href="#">STRATEGY</a></li>
                 </ul>
-                <a href="#" class="mobile-menu mobile-menu-light">
+                 <a href="#" class="mobile-menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -128,21 +163,22 @@
     <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
 
     <script>
-
-        $('.main-navbar').on('click', '.mobile-menu', function (e) {
-            e.preventDefault();
-
-            if ($(this).hasClass('current-selection')) {
-                $(this).removeClass('current-selection');
-                $('#navbar').removeClass('show-on-mobile-light');
-                return false;
-            }
-
-            $('#navbar').addClass('show-on-mobile-light');
-            $(this).addClass('current-selection');
+                                                                         
+        $('.main-navbar').on('click', '.mobile-menu', function (e) {     
+            e.preventDefault();                                          
+                                                                         
+            if ($(this).hasClass('current-selection')) {                 
+                $(this).removeClass('current-selection');                
+                $('#navbar').removeClass('show-on-mobile');              
+                return false;                                            
+            }                                                            
+                                                                         
+            $('#navbar').addClass('show-on-mobile');                     
+            $(this).addClass('current-selection');                       
         });
 
     </script>
+
 
 </body>
 </html>
