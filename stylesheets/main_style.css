@@ -70,7 +70,14 @@ body {
     -webkit-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
-.main-navbar .navbar li a:hover {
+.main-navbar .navbar li a:hover  {
+    border-bottom: solid 1px;
+    color: #808080;
+}
+.main-navbar .navbar li a#logo0:hover {
+    border-bottom: none;
+}
+.main-navbar .navbar li a.subCurrent {
     border-bottom: solid 1px;
     color: #808080;
 }
@@ -114,12 +121,7 @@ p a:hover {
 .main-content .banner {
     margin: 0px auto 10px auto;
 }
-.main-content .slogan {
-    font-weight: bold;
-    font-size: 1.6em;
-    text-align: center;
-    display: none;
-} 
+ 
 .main-content #page_1, #page_2, #page_3, #page_4, #page_5, #page_6 {
     margin: 35px 0;
 }
@@ -216,53 +218,10 @@ p a:hover {
     .show-on-mobile li {
         display: block !important;
     }
-    .main-header .slogan {
-        display: block;
-        margin: -88px 0 0 110px;
-        color: rgb(215, 211, 211);
-        font-size: 1.1em;
-    }
-
-    /*---------------------mobile navigation light version---------------------*/
-
-    .show-on-mobile-light {
-        display: block;
-        text-align: right !important;
-        padding: 10px 0 15px 0;
-        width: 150px !important;
-        position: absolute;
-        top: 55px;
-        right: 0;
-        background: url('../images/lightpaperfibers.png');
-        opacity: 0.9;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-    }
-    .show-on-mobile-light li {
-        display: block !important;
-    }
-    .show-on-mobile-light .logo {
-        display: none !important;
-    }
-    .mobile-menu-light span {
-        border-bottom: 3px solid  rgba(30, 30, 80, 1);
-    }
-    .main-header .slogan-light {
-        color: #1e1e50;
-    }
     
 }
-@media only screen and (max-width: 550px)  {
-    .main-header .slogan {
-        margin: -78px 0 0 110px;
-    }
-    .main-header .slogan span {
-        display: none;
-    }
-}
+
 @media only screen and (max-width: 380px) {
-    .main-header .slogan {
-        display: none;
-    }
     .mobile-logo, .mobile-logo img {
         width: 70px;
         height: 70px;
