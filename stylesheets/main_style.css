@@ -79,7 +79,7 @@ body {
 }
 .main-navbar .navbar li a.subCurrent {
     border-bottom: solid 1px;
-    color: #6db3f2;
+    color: #717191;
 }
 p a { 
     text-decoration: none; 
@@ -172,7 +172,7 @@ h3.ticker {
 }
 h3.ticker a img {
     margin: auto 10px;
-    vertical-align: sub;
+    vertical-align: middle;
     box-shadow: 1px 1px 1px;
     border-radius: 5px;
 }
