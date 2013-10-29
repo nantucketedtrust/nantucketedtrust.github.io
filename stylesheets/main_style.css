@@ -79,7 +79,7 @@ body {
 }
 .main-navbar .navbar li a.subCurrent {
     border-bottom: solid 1px;
-    color: #717191;
+    color: #fff;
 }
 p a { 
     text-decoration: none; 
