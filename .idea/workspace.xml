@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3975b013-b055-455b-9e8b-e3b73356eb65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3975b013-b055-455b-9e8b-e3b73356eb65" name="Default" comment="" />
     <ignored path="nantucketedtrust.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -182,8 +180,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -294,23 +292,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="3" column="28" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="0" selection-start="10337" selection-end="10337" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="3026">
-          <folding />
-        </state>
+        <state line="163" column="0" selection-start="10337" selection-end="10337" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="3026" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2013-11-04-Programs.md">
@@ -360,16 +352,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/banner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2013-11-06-About-Us.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="633" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.24954128" vertical-offset="0" max-vertical-offset="545">
-          <folding />
-        </state>
+        <state line="8" column="633" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.24954128" vertical-offset="0" max-vertical-offset="545" />
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -377,23 +365,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="0" selection-start="10578" selection-end="10578" vertical-scroll-proportion="3.28125" vertical-offset="1071" max-vertical-offset="3111">
-          <folding />
-        </state>
+        <state line="168" column="0" selection-start="10578" selection-end="10578" vertical-scroll-proportion="3.28125" vertical-offset="1071" max-vertical-offset="3111" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="49" selection-end="49" vertical-scroll-proportion="0.091561936" vertical-offset="0" max-vertical-offset="557">
-          <folding />
-        </state>
+        <state line="3" column="25" selection-start="49" selection-end="49" vertical-scroll-proportion="0.091561936" vertical-offset="0" max-vertical-offset="557" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.091561936" vertical-offset="0" max-vertical-offset="557">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.091561936" vertical-offset="0" max-vertical-offset="557" />
       </provider>
     </entry>
   </component>

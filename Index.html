@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% include banner.html %}
+{% for post in site.posts %}
+<section class="{{ post.class }} {{ post.secondClass }}" id="{{ post.identification }}">
+    <h2><span class="{{ post.thirdClass }}">{{ post.title }}</span></h2>
+    {{ post.content }}
+</section>
+{% endfor %}
+
