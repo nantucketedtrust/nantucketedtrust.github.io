@@ -1,10 +1,7 @@
 name: "Nantucket Education Trust"
 description: "Nantucket Education Trust"
-
-url: "http://nantucketedtrust.github.io/"
-
+base_url: /
 paginate: 10
-
 markdown: rdiscount
 permalink: date
 pygments: true
