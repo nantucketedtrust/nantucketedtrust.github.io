@@ -107,7 +107,7 @@ p a:hover {
     font-size: 1.2em;
     line-height: 1.5em;
 }
-.main-content p {
+.main-content p, div#form-wrapper p {
     font-size: 1.2em;
     margin: 10px 0;
     line-height: 1.5em;
@@ -125,7 +125,7 @@ p a:hover {
 .main-content #page_1, #page_2, #page_3, #page_4, #page_5, #page_6 {
     margin: 35px 0;
 }
-.main-content section h2 {
+.main-content section h2, div#form-wrapper h2 {
     font-weight: bold;
     font-size: 1.6em;
     font-family: JosefinSlab-Regular, 'Times New Roman',Georgia, serif;
@@ -137,7 +137,7 @@ p a:hover {
     line-height: 0em;
     color: #1e1e50;
 }
-.main-content .no-bg {
+.main-content .no-bg, div#form-wrapper .no-bg {
 
     background-color: #fff;
     padding: 0 10px;
@@ -178,24 +178,35 @@ h3.ticker a img {
 
 
 /* ------------------------------- Form styles ---------------------- */
-#content3 > div {
+div#form-wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 50px;
+    width: 100%;
+}
+img#form-logo {
+    display: block;
+    margin: 0 auto;
+}
+button#form-link {
+    background-color: #1E1E50;
     border: 1px solid #CCCCCC;
-    margin: 40px 0;
-    padding: 0 2% 30px;
+    color: #FFFFFF;
+    display: block;
+    font-family: JosefinSlab-Regular;
+    font-size: 0.9em;
+    margin: 20px auto;
+    padding: 20px;
+    cursor: pointer;
 }
-#form-wrapper > img {
-    float: left;
-    height: 100px;
-    margin: 8% 5% 0 10%;
-    width: 100px;
+button#form-link:hover {
+    opacity: .9;
+    color: #cccccc;
 }
-#form-wrapper > h3 {
-    color: #1E1E50;
-    display: inline-block;
-    font-size: 1.4em;
-    margin: 9% 0 5%;
+p.thank-you {
+    font-size: 1.4em !important;
+    margin-top: 80px !important;
     text-align: center;
-    vertical-align: top;
 }
 /* =================================================================== */
 
@@ -271,6 +282,9 @@ h3.ticker a img {
     .show-on-mobile li {
         display: block !important;
     }
+
+
+
 
 }
 
