@@ -177,6 +177,29 @@ h3.ticker a img {
 }
 
 
+/* ------------------------------- Form styles ---------------------- */
+#content3 > div {
+    border: 1px solid #CCCCCC;
+    margin: 40px 0;
+    padding: 0 2% 30px;
+}
+#form-wrapper > img {
+    float: left;
+    height: 100px;
+    margin: 8% 5% 0 10%;
+    width: 100px;
+}
+#form-wrapper > h3 {
+    color: #1E1E50;
+    display: inline-block;
+    font-size: 1.4em;
+    margin: 9% 0 5%;
+    text-align: center;
+    vertical-align: top;
+}
+/* =================================================================== */
+
+
 /*--------------------------------------media queries-------------------------*/
 @media only screen and (max-width: 800px) {
     .main-header {
