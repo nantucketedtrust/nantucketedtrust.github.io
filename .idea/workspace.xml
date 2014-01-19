@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3975b013-b055-455b-9e8b-e3b73356eb65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-11-06-About-Us.md" afterPath="$PROJECT_DIR$/_posts/2013-11-06-About-Us.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/11/06/About-Us.html" afterPath="$PROJECT_DIR$/_site/2013/11/06/About-Us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/11/02/History-of-program-support.html" afterPath="$PROJECT_DIR$/_site/2013/11/02/History-of-program-support.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/Index.html" afterPath="$PROJECT_DIR$/_site/Index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/11/05/Mission.html" afterPath="$PROJECT_DIR$/_site/2013/11/05/Mission.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-11-04-Programs.md" afterPath="$PROJECT_DIR$/_posts/2013-11-04-Programs.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/11/04/Programs.html" afterPath="$PROJECT_DIR$/_site/2013/11/04/Programs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/11/01/Strategy.html" afterPath="$PROJECT_DIR$/_site/2013/11/01/Strategy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/11/03/Support-Us.html" afterPath="$PROJECT_DIR$/_site/2013/11/03/Support-Us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/stylesheets/main_style.css" afterPath="$PROJECT_DIR$/_site/stylesheets/main_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main_style.css" afterPath="$PROJECT_DIR$/stylesheets/main_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/custom.js" afterPath="$PROJECT_DIR$/_site/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
     </list>
     <ignored path="nantucketedtrust.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,21 +32,36 @@
       <file leaf-file-name="main_style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/main_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="27" selection-start="3829" selection-end="3829" vertical-scroll-proportion="-15.6" vertical-offset="2568" max-vertical-offset="4250">
+            <state line="174" column="27" selection-start="3801" selection-end="3801" vertical-scroll-proportion="0.0" vertical-offset="2958" max-vertical-offset="4913">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2013-11-06-About-Us.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2013-11-06-About-Us.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2013-11-06-About-Us.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="46" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.3596154" vertical-offset="0" max-vertical-offset="520">
+            <state line="11" column="46" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_site/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="0" selection-start="5931" selection-end="5931" vertical-scroll-proportion="0.23713236" vertical-offset="1690" max-vertical-offset="3536">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2013-11-04-Programs.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2013-11-04-Programs.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="14" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -79,6 +88,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/main_style.css" />
         <option value="$PROJECT_DIR$/_posts/2013-11-06-About-Us.md" />
+        <option value="$PROJECT_DIR$/_posts/2013-11-04-Programs.md" />
       </list>
     </option>
   </component>
@@ -160,6 +170,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nantucketedtrust.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nantucketedtrust.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -174,17 +198,13 @@
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
-      <server id="8fa9336b-fac9-4e2c-8c75-986af55d5400">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="45d3dd2b-59ea-449f-a383-c1b896dc004a">
+        <serverdata />
       </server>
     </servers>
   </component>
@@ -236,7 +256,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -277,9 +297,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6715928" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -299,6 +319,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stylesheets/main_style.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="27" selection-start="3801" selection-end="3801" vertical-scroll-proportion="0.0" vertical-offset="2958" max-vertical-offset="4913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-11-06-About-Us.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="46" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/main_style.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="12" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4267" />
       </provider>
     </entry>
@@ -314,19 +348,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="27" selection-start="3829" selection-end="3829" vertical-scroll-proportion="-15.6" vertical-offset="2568" max-vertical-offset="4250">
+        <state line="174" column="27" selection-start="3801" selection-end="3801" vertical-scroll-proportion="0.0" vertical-offset="2958" max-vertical-offset="4913">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2013-11-06-About-Us.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.3596154" vertical-offset="0" max-vertical-offset="520">
+        <state line="11" column="46" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-11-04-Programs.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="0" selection-start="5931" selection-end="5931" vertical-scroll-proportion="0.23713236" vertical-offset="1690" max-vertical-offset="3536">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

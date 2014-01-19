@@ -23,7 +23,7 @@ $(function () {
     nedtConfig.navbarlink = $('#navbar li a');
     nedtConfig.headerH = getElemtHeight('.main-header');
 
-    //setMinHeight('#content7');
+    setMinHeight('#content6');
 
 
     //scroll to id
