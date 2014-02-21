@@ -49,7 +49,7 @@ $(function () {
 
         var target = e.target.nodeName;
         if (($(target).hasClass('mobile-menu') || $(target).parent().hasClass('mobile-menu')) && !$('#navbar').hasClass('show-on-mobile')) {
-            //e.preventDefault();
+            e.preventDefault();
             console.log('in if statement')
             $('#navbar').addClass('show-on-mobile');
             $(this).addClass('current-selection');
