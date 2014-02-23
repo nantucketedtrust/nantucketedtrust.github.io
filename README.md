@@ -1,2 +1,2 @@
-Siply edit the markdown pages in the _posts directory
+Simply edit the markdown pages in the _posts directory...
 ==========================
