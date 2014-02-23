@@ -236,10 +236,10 @@ p.thank-you {
     bottom: 50px;
     color: #FFFFFF;
     opacity: 1;
-    left: 50px;
+    left: 0px;
     position: fixed;
-    right: 50px;
-    top: 50px;
+    right: 0px;
+    top: 0px;
     z-index: 1000;
     -webkit-transition: opacity .2s ease-in;
     transition: opacity .2s ease-in;
@@ -281,8 +281,8 @@ div.donations {
     display: block;
     height: 48px;
     position: absolute;
-    right: -24px;
-    top: -24px;
+    right: 8px;
+    top: 8px;
     width: 48px;
 }
 .closeBtn:hover {
