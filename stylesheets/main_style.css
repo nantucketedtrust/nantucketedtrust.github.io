@@ -253,14 +253,22 @@ p.thank-you {
     text-align: left;
     width: 50%;
 }
-h4.donations {
+div.donations {
     border-bottom: 1px solid #1E1E50;
     line-height: 1em;
     padding: 15px;
 }
+.donations > h4 {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 10px;
+    text-align: center;
+}
 .donations > span {
     display: inline-block;
     width: 70%;
+    font-weight: normal;
+    font-size: .9em;
 }
 .donations > form {
     display: inline-block;
@@ -368,13 +376,13 @@ h4.donations {
     }
 }
 @media only screen and (max-width: 550px) {
-    h4.donations {
+    div.donations {
         font-size: .8em;
     }
     .donations > form {
         margin-left: 1%;
     }
-    h4.donations {
+    div.donations {
         font-size: 0.8em;
         padding: 15px 5px;
     }
@@ -383,7 +391,7 @@ h4.donations {
     .showModal {
         top: 50px;
     }
-    h4.donations {
+    div.donations {
         padding: 5px;
     }
 }
