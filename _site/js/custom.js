@@ -140,3 +140,9 @@ $('.frontButton').on('click', function(e) {
     e.preventDefault();
     $('.modal-window').addClass('showModal');
 });
+
+/* When Close Button is clicked modal window is closed */
+
+$('.closeBtn').on('click', function(e) {
+    $('.modal-window').removeClass('showModal');
+});

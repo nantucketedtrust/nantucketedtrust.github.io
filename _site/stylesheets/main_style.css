@@ -240,10 +240,44 @@ p.thank-you {
     top: 50px;
     z-index: 1000;
 }
+.PayPal-wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000000;
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
+}
+h4.donations {
+    border-bottom: 1px solid #1E1E50;
+    line-height: 0;
+    padding: 15px;
+}
+.donations > span {
+    display: inline-block;
+    width: 60%;
+}
+.donations > form {
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: text-top;
+}
 .donations > form {
     display: inline-block;
     vertical-align: text-top;
     margin-left: 15%;
+}
+.closeBtn {
+    background: url("../images/close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 48px;
+    position: absolute;
+    right: -24px;
+    top: -24px;
+    width: 48px;
+}
+.closeBtn:hover {
+    opacity: .8;
+    cursor: pointer;
 }
 
 
