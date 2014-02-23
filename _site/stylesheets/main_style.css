@@ -249,18 +249,18 @@ p.thank-you {
 .PayPal-wrapper {
     background-color: rgba(255, 255, 255, 0.9);
     color: #000000;
-    margin: 100px auto;
+    margin: 35px auto;
     text-align: left;
     width: 50%;
 }
 h4.donations {
     border-bottom: 1px solid #1E1E50;
-    line-height: 0;
+    line-height: 1em;
     padding: 15px;
 }
 .donations > span {
     display: inline-block;
-    width: 60%;
+    width: 70%;
 }
 .donations > form {
     display: inline-block;
@@ -291,6 +291,11 @@ h4.donations {
 
 
 /*--------------------------------------media queries-------------------------*/
+@media only screen and (max-width: 885px) {
+    .PayPal-wrapper {
+        width: 90%;
+    }
+}
 @media only screen and (max-width: 850px) {
     .main-header {
         height: 50px!important;
@@ -347,14 +352,60 @@ h4.donations {
     }
 
 
-
-
+    .showModal {
+        top: 100px;
+    }
 }
-
-
+@media only screen and (max-width: 670px) {
+    .frontButton {
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 590px) {
+    .showModal {
+        bottom: 25px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    h4.donations {
+        font-size: .8em;
+    }
+    .donations > form {
+        margin-left: 1%;
+    }
+    h4.donations {
+        font-size: 0.8em;
+        padding: 15px 5px;
+    }
+}
+@media only screen and (max-width: 490px) {
+    .showModal {
+        top: 50px;
+    }
+    h4.donations {
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .donations span {
+        width: 100%;
+        text-align: center;
+    }
+    .donations > form {
+        display: block;
+        margin: 10px auto 0;
+        width: auto;
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 380px) {
     .mobile-logo, .mobile-logo img {
         width: 70px;
         height: 70px;
+    }
+    .frontButton img {
+        width: 70%;
+        height: 70%;
     }
 }
