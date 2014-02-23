@@ -9,12 +9,7 @@ It’s going to take more than big ideas to educate our children.  We need to bu
 
 <span class="bold">Can anyone make a donation to the Trust?</span><br/>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="WXGT48JQ42UHJ">
-<input type="image" src="http://nantucketedtrust.github.io/images/pay-pal-donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+<a href="#" title="PayPal Donation Button" class="frontButton" id="payPalButton"><img src="/images/pay-pal-donate.png" alt="PayPal Button" /></a>
 
 
 <span class="bold">YES!!!</span>

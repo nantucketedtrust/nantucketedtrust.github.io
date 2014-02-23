@@ -133,3 +133,10 @@ function GetScrollPositions() {
     //alert ("The current horizontal scroll amount: " + scrollLeft + "px");
     // alert ("The current vertical scroll amount: " + scrollTop + "px");
 }
+
+/* When PayPal Button is clicked modal window with multiple choices of donation is popping up */
+
+$('.frontButton').on('click', function(e) {
+    e.preventDefault();
+    $('.modal-window').addClass('showModal');
+});
