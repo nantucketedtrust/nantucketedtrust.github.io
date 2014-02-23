@@ -245,6 +245,7 @@ p.thank-you {
     transition: opacity .2s ease-in;
 }
 
+
 .PayPal-wrapper {
     background-color: rgba(255, 255, 255, 0.9);
     color: #000000;
@@ -266,10 +267,8 @@ h4.donations {
     margin-left: 5%;
     vertical-align: text-top;
 }
-.donations > form {
-    display: inline-block;
-    vertical-align: text-top;
-    margin-left: 15%;
+.donations > form:hover {
+    opacity: .8;
 }
 .closeBtn {
     background: url("../images/close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
