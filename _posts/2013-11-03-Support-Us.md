@@ -13,6 +13,6 @@ It’s going to take more than big ideas to educate our children.  We need to bu
 
 
 <span class="bold">YES!!!</span>
-Incorporated as a not-for-profit entity with a 501(c)3 tax-exempt status, the Trust is able to receive financial gifts designated to benefit the students of the public school system, while the donors of such gifts qualify for appropriate tax deductions for their charitable contributions.  This is an ideal way for everyone who cares about Nantucket, year-round and seasonal residents, as well as businesses, to help ensure a promising future for the island’s most precious resource – its children.<br/>
+Incorporated as a not-for-profit entity with a 501(c)3 tax-exempt status, the Trust is able to receive financial gifts designated to benefit the students of the public school system, while the donors of such gifts qualify for appropriate tax deductions for their charitable contributions.  This is an ideal way for everyone who cares about Nantucket to help ensure a promising future for the island’s most precious resource – our children.<br/>
 
 For more information, or if anyone wishes to make a donation, please contact NET Board member, Caitlin Waddington, 508-228-7285  Ext. 1162
