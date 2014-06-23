@@ -98,8 +98,7 @@ p a:hover {
     width: 800px;
     height: 100%;
     position: relative;
-    margin: 0 auto;
-    margin-top: 160px;
+    margin: 142px auto 0;
 }
 .main-content .content-ul {
     list-style: disc;
@@ -144,7 +143,8 @@ p a:hover {
     height: 1.4em;
 }
 .entire-width {
-    min-width: 100%;
+    width: 60%;
+	max-width: 800px;
 
 }
 .mobile-logo {
