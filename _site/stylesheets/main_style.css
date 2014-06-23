@@ -306,7 +306,7 @@ div.donations {
 		max-width: 800px;
 		margin: 0 auto;
 		display: block;
-
+		min-width: 0;
 	}
 }
 @media only screen and (max-width: 885px) {
