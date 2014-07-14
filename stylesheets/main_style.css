@@ -146,6 +146,15 @@ p a:hover {
 	min-width: 100%;
 
 }
+#content0 .entire-width {
+    min-width: 60%;
+
+}
+#content0 {
+
+    background: #d9d9ee;
+    padding-top: 10px;
+}
 .mobile-logo {
     display: none;
     width: 90px;
@@ -160,8 +169,7 @@ p a:hover {
 }
 
 h3.ticker {
-    background: none repeat scroll 0 0 #EDEDED;
-    border: 1px solid #CCCCCC;
+    background: none repeat scroll 0 0 #d9d9ee;
     font-size: 1.2em;
     font-weight: 900;
     color: #1E1E50;
