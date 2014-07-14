@@ -147,12 +147,11 @@ p a:hover {
 
 }
 #content0 .entire-width {
-    min-width: auto;
+    min-width: 60%;
     max-width: 60%;
 
 }
 #content0 {
-
     background: #d9d9ee;
     padding-top: 10px;
     text-align: center;
