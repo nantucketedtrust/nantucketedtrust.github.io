@@ -102,7 +102,7 @@ p a:hover {
     width: 800px;
     height: 100%;
     position: relative;
-    margin: 160px auto 0;
+    margin: 40px auto 0;
 }
 .main-content .content-ul {
     list-style: disc;
@@ -122,7 +122,7 @@ p a:hover {
     font-weight: bold;
 }
 .main-content .banner {
-    margin: 0px auto 10px auto;
+    margin: 130px auto 10px auto;
 }
 
 .main-content #page_1, #page_2, #page_3, #page_4, #page_5, #page_6 {
