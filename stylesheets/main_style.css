@@ -124,9 +124,7 @@ p a:hover {
 .main-content .banner {
     margin: 0px auto 10px auto;
 }
-.banner {
-	padding-top: 130px;
-}
+
 .main-content #page_1, #page_2, #page_3, #page_4, #page_5, #page_6 {
     margin: 35px 0;
 }
@@ -161,7 +159,7 @@ h2 .no-bg {
 }
 #content0 {
     background: #d9d9ee;
-    padding-top: 10px;
+    padding-top: 110px;
     text-align: center;
 }
 .mobile-logo {
