@@ -137,6 +137,7 @@ p a:hover {
     text-align: center;
     border-bottom: 3px solid #ccc;
     color: #1e1e50;
+  	line-height: 1,2em; 
 }
 h2 .no-bg {
 	    background-color: transparent;
