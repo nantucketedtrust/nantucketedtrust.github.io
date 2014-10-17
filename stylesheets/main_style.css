@@ -122,9 +122,11 @@ p a:hover {
     font-weight: bold;
 }
 .main-content .banner {
-    margin: 130px auto 10px auto;
+    margin: 0px auto 10px auto;
 }
-
+.banner {
+	padding-top: 130px;
+}
 .main-content #page_1, #page_2, #page_3, #page_4, #page_5, #page_6 {
     margin: 35px 0;
 }
