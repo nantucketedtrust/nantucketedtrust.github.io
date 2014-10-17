@@ -18,19 +18,23 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+/*
 @font-face {
     font-family: Capture_it;
     src: url('../fonts/Capture_it.ttf') format('truetype');
 }
+
 @font-face {
     font-family: JosefinSlab-Regular;
     src: url('../fonts/JosefinSlab-Regular.ttf') format('truetype');
 }
+*/
 body {
     background-color: #fff;
     font-size: 1em;
     line-height: 1.3em;
-    font-family: JosefinSlab-Regular, 'Times New Roman',Georgia, serif;
+    /*font-family: JosefinSlab-Regular, 'Times New Roman',Georgia, serif;*/
+  	font-family: Helvetica, Arial, sans-serif;
 }
 .main-header {
     width: 100%;
@@ -108,7 +112,7 @@ p a:hover {
 }
 .main-content p, div#form-wrapper p {
     font-size: 1.2em;
-    margin: 10px 0;
+    margin: 10px 0 20px;
     line-height: 1.5em;
 }
 .main-content #page_3 h6 {
