@@ -19,10 +19,10 @@ If you have further questions or would like to talk with a board member, please 
 
 <span class="bold"> Treasurer - Jana Duarte</span>, [K3dstarr@comcast.net](mailto:K3dstarr@comcast.net)
 
-Michael Cozort, [cozortm@nps.k 12.ma.us](mailto:cozortm@nps.k 12.ma.us)
+<span class="bold"> Michael Cozort</span>, [cozortm@nps.k 12.ma.us](mailto:cozortm@nps.k 12.ma.us)
 
-William Ferrall, [wmferrall@gmail.com](mailto:wmferrall@gmail.com)
+<span class="bold"> William Ferrall</span>, [wmferrall@gmail.com](mailto:wmferrall@gmail.com)
 
-Virna Gonzalez, [vgonzalez@remainnantucket.org](mailto:vgonzalez@remainnantucket.org)
+<span class="bold"> Virna Gonzalez</span>, [vgonzalez@remainnantucket.org](mailto:vgonzalez@remainnantucket.org)
 
-Caitlin Waddington, [waddingtonc@nps.k12.ma.us](mailto:waddingtonc@nps.k12.ma.us)
+<span class="bold"> Caitlin Waddington</span>, [waddingtonc@nps.k12.ma.us](mailto:waddingtonc@nps.k12.ma.us)
