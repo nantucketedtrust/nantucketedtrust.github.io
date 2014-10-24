@@ -18,19 +18,34 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+/*
 @font-face {
     font-family: Capture_it;
     src: url('../fonts/Capture_it.ttf') format('truetype');
 }
+
 @font-face {
     font-family: JosefinSlab-Regular;
     src: url('../fonts/JosefinSlab-Regular.ttf') format('truetype');
 }
+*/
 body {
     background-color: #fff;
     font-size: 1em;
     line-height: 1.3em;
-    font-family: JosefinSlab-Regular, 'Times New Roman',Georgia, serif;
+    /*font-family: JosefinSlab-Regular, 'Times New Roman',Georgia, serif;*/
+  	font-family: Helvetica, Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.3em !important;
+	margin-bottom: 15px !important;
+}
+h4 {
+font-size: 1.2em !important;
+margin: 15px 0 !important;
 }
 .main-header {
     width: 100%;
@@ -81,6 +96,9 @@ body {
     border-bottom: solid 1px;
     color: #fff;
 }
+a#logo0.subCurrent {
+    border-bottom: none;
+}
 p a {
     text-decoration: none;
     color: #1e1e50;
@@ -98,7 +116,7 @@ p a:hover {
     width: 800px;
     height: 100%;
     position: relative;
-    margin: 160px auto 0;
+    margin: 40px auto 0;
 }
 .main-content .content-ul {
     list-style: disc;
@@ -108,7 +126,7 @@ p a:hover {
 }
 .main-content p, div#form-wrapper p {
     font-size: 1.2em;
-    margin: 10px 0;
+    margin: 10px 0 20px;
     line-height: 1.5em;
 }
 .main-content #page_3 h6 {
@@ -127,14 +145,16 @@ p a:hover {
 .main-content section h2, div#form-wrapper h2 {
     font-weight: bold;
     font-size: 1.6em;
-    font-family: JosefinSlab-Regular, 'Times New Roman',Georgia, serif;
     -webkit-text-shadow: 0px 0px 5px #fff;
     text-shadow: 0px 0px 5px #fff;
-    margin: 50px 0 30px;
+    margin: 20px 0 30px;
     text-align: center;
-    border-bottom: 3px solid #ccc;
-    line-height: 0em;
+    border-bottom: 2px solid #ccc;
     color: #1e1e50;
+  	line-height: 1.1em; 
+}
+h2 .no-bg {
+	    background-color: transparent;
 }
 .main-content .no-bg, div#form-wrapper .no-bg {
 
@@ -145,6 +165,16 @@ p a:hover {
 .entire-width {
 	min-width: 100%;
 
+}
+#content0 .entire-width {
+    min-width: 60%;
+    max-width: 60%;
+
+}
+#content0 {
+    background: #d9d9ee;
+    padding-top: 110px;
+    text-align: center;
 }
 .mobile-logo {
     display: none;
@@ -160,8 +190,7 @@ p a:hover {
 }
 
 h3.ticker {
-    background: none repeat scroll 0 0 #EDEDED;
-    border: 1px solid #CCCCCC;
+    background: none repeat scroll 0 0 #d9d9ee;
     font-size: 1.2em;
     font-weight: 900;
     color: #1E1E50;
@@ -192,7 +221,6 @@ button#form-link {
     border: 1px solid #CCCCCC;
     color: #FFFFFF;
     display: block;
-    font-family: JosefinSlab-Regular;
     font-size: 0.9em;
     margin: 20px auto;
     padding: 20px;
@@ -290,6 +318,12 @@ div.donations {
     cursor: pointer;
 }
 
+strong, b {
+	font-weight: bold;
+}
+em, i {
+	font-style: italic; 
+}
 
 /* ===================================================== */
 

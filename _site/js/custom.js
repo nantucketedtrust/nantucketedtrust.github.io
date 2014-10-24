@@ -6,7 +6,7 @@ var nedtConfig = {
 };
 
 function getElemtHeight(el) {
-    var padding = 50;
+    var padding = 30;
     var h = Number($(el).height() + padding);
     return h;
 }
@@ -66,12 +66,14 @@ jQuery(window).on('resize', function (e) {
     nedtConfig.headerH = getElemtHeight('.main-header');
     setMinHeight('#content6');
 });
-jQuery(window).on('scroll', function (e) {
+/*jQuery(window).on('scroll', function (e) {
 
     $(".pannel").each(function (el) {
         //$(this).attr("id", "link" + n);
         var offset = $(this).position();
         var pageTop = GetScrollPositions();
+				console.log(pageTop);
+
         if ((offset.top - pageTop) < nedtConfig.headerH && (offset.top - pageTop) > -nedtConfig.headerH + 120) {
 
 
@@ -84,7 +86,7 @@ jQuery(window).on('scroll', function (e) {
         }
 
     });
-});
+});*/
 
 function scrollToTheTop(theRel) {
     timeToScrollSubs = 600;
