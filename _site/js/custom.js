@@ -66,7 +66,7 @@ jQuery(window).on('resize', function (e) {
     nedtConfig.headerH = getElemtHeight('.main-header');
     setMinHeight('#content6');
 });
-/*jQuery(window).on('scroll', function (e) {
+jQuery(window).on('scroll', function (e) {
 
     $(".pannel").each(function (el) {
         //$(this).attr("id", "link" + n);
@@ -86,7 +86,7 @@ jQuery(window).on('resize', function (e) {
         }
 
     });
-});*/
+});
 
 function scrollToTheTop(theRel) {
     timeToScrollSubs = 600;
