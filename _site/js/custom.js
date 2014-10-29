@@ -11,6 +11,7 @@ function getElemtHeight(el) {
     return h;
 }
 
+
 function setMinHeight(el) {
     var minH = Number(getElemtHeight(window));
     $(el).css('min-height', minH + 'px');
@@ -38,7 +39,7 @@ $(function () {
 
             return false;
         }
-        // console.log(lkId);
+        //console.log(lkId);
         scrollToTheTop('content' + lkId);
     });
 
@@ -50,7 +51,7 @@ $(function () {
         var target = e.target.nodeName;
         if (($(target).hasClass('mobile-menu') || $(target).parent().hasClass('mobile-menu')) && !$('#navbar').hasClass('show-on-mobile')) {
             e.preventDefault();
-            console.log('in if statement')
+            //console.log('in if statement')
             $('#navbar').addClass('show-on-mobile');
             $(this).addClass('current-selection');
             return false;
@@ -70,11 +71,12 @@ jQuery(window).on('scroll', function (e) {
 
     $(".pannel").each(function (el) {
         //$(this).attr("id", "link" + n);
-        var offset = $(this).position();
-        var pageTop = GetScrollPositions();
-				console.log(pageTop);
+        var offset = ($(this).offset().top - 214.749954223633 );
+        console.log(offset);
 
-        if ((offset.top - pageTop) < nedtConfig.headerH && (offset.top - pageTop) > -nedtConfig.headerH + 120) {
+        var pageTop = GetScrollPositions();
+        console.log(pageTop);
+        if ((offset - pageTop) < nedtConfig.headerH && (offset - pageTop) > -nedtConfig.headerH) {
 
 
             var thisId = $(this).attr('id');
@@ -90,7 +92,7 @@ jQuery(window).on('scroll', function (e) {
 
 function scrollToTheTop(theRel) {
     timeToScrollSubs = 600;
-    console.log(theRel);
+    //console.log(theRel);
 
     if (theRel != 'content') {
 
