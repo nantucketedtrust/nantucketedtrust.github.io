@@ -1,6 +1,6 @@
 name: "Nantucket Education Trust"
 description: "Nantucket Education Trust"
-base_url: /
+base_url: /images
 siteurl: 'http://nantucketeducationtrust.org/'
 paginate: 10
 markdown: rdiscount
