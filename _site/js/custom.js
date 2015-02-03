@@ -71,7 +71,7 @@ jQuery(window).on('scroll', function (e) {
 
     $(".pannel").each(function (el) {
         //$(this).attr("id", "link" + n);
-        var offset = ($(this).offset().top - 214.749954223633 );
+        var offset = ($(this).position().top - 214.749954223633 );
         console.log(offset);
 
         var pageTop = GetScrollPositions();
