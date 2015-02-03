@@ -7,4 +7,4 @@ markdown: rdiscount
 permalink: date
 pygments: true
 prose: 
-   media: '/images'
+   media: '/images/'
