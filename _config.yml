@@ -5,3 +5,5 @@ paginate: 10
 markdown: rdiscount
 permalink: date
 pygments: true
+prose: 
+	media: _iamges
