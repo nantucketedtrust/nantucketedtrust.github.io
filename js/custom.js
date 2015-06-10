@@ -150,3 +150,15 @@ $('.frontButton').on('click', function(e) {
 $('.closeBtn').on('click', function(e) {
     $('.modal-window').removeClass('showModal');
 });
+
+/* Flex Slider Initialisation */
+$(window).load(function() {
+    $('.flexslider').flexslider({
+    animation: "fade",
+    controlNav: true,
+    directionNav: false,
+    slideshowSpeed: 8000,
+    animationSpeed: 600,
+    touch: true
+    });
+});

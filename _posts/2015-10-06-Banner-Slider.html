@@ -1,0 +1,25 @@
+---
+layout: post
+title: 
+class: banner
+identification: content0
+published: true
+carousel:
+  - image: /images/slider/banner.jpg
+  - image: /images/slider/slide1.jpg
+  - image: /images/slider/slide2.jpg
+  - image: /images/slider/slide3.jpg
+---
+
+		{% if page.carousel %}
+			<div class="flexslider entire-width">
+				<ul class="slides cf">
+					{% for slides in page.carousel %}
+						<li>
+							<img src="{{ slides.image }}">
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endif %}
+        {%include banner.html%}

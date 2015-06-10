@@ -29,6 +29,33 @@ time, mark, audio, video {
     src: url('../fonts/JosefinSlab-Regular.ttf') format('truetype');
 }
 */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
 body {
     background-color: #fff;
     font-size: 1em;
@@ -113,10 +140,17 @@ p a:hover {
     color: #000;
 }
 .main-content {
-    width: 800px;
+    /*width: 800px;*/
     height: 100%;
     position: relative;
-    margin: 40px auto 0;
+    /*margin: 40px auto 0;*/
+}
+.pannel {
+  width: 800px;
+  margin: 0 auto;
+}
+section#content1 {
+  padding-top: 5px;
 }
 .main-content .content-ul {
     list-style: disc;
@@ -136,7 +170,10 @@ p a:hover {
     font-weight: bold;
 }
 .main-content .banner {
-    margin: 0px auto 10px auto;
+    margin: 0px auto 0 auto;
+}
+.banner h2 {
+  display: none;
 }
 
 .main-content #page_1, #page_2, #page_3, #page_4, #page_5, #page_6 {
@@ -162,19 +199,41 @@ h2 .no-bg {
     padding: 0 10px;
     height: 1.4em;
 }
-.entire-width {
-	min-width: 100%;
-
+#content0 {
+    background: #d9d9ee;
+    padding-top: 130px;
+    text-align: center;
 }
 #content0 .entire-width {
     min-width: 60%;
     max-width: 60%;
+	margin: 0 auto;
 
 }
-#content0 {
-    background: #d9d9ee;
-    padding-top: 110px;
-    text-align: center;
+.entire-width {
+	min-width: 100%;
+
+}
+.flexslider.entire-width {
+  border: none;
+}
+.flex-control-nav {
+  z-index: 22;
+  background-color: rgba(0,0,0,.6);
+  padding: 5px 0;
+  bottom: 0px;
+}
+.flex-control-nav li {
+  vertical-align: middle;
+}
+.flex-control-paging li a {
+  background: rgba(255,255,255,.5);
+}
+.flex-control-paging li a:hover {
+  background: rgba(255,255,255,.9);
+}
+.flex-control-paging li a.flex-active {
+  background: rgba(255,255,255,.9);
 }
 .mobile-logo {
     display: none;
@@ -337,9 +396,9 @@ em, i {
 
 /*--------------------------------------media queries-------------------------*/
 @media only screen and (max-width: 1100px) {
-    .main-content {
-		margin: 142px auto 0;
-	}
+    /*.main-content {
+		margin: 130px auto 0;
+	}*/
 	.entire-width {
 		width: 60%;
 		max-width: 800px;
@@ -365,16 +424,23 @@ em, i {
         display: block;
     }
     .main-content {
-        margin: 70px 5% 70px 5%;
-        max-width: 90%;
+        margin: 0 auto;
+        max-width: 100%;
 
     }
     .main-content .banner {
-        max-width: 80%;
+        max-width: 100%;
     }
     .main-content .banner .entire-width  {
         max-width: 100%;
     }
+	.pannel {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	section#content1 {
+		padding-top: 35px;
+	}
     .mobile-menu {
         display: block;
         height: 30px;
@@ -443,6 +509,10 @@ em, i {
     div.donations {
         padding: 5px;
     }
+	#content0 .entire-width {
+		min-width: 80%;
+		max-width: 80%;
+	}
 }
 @media only screen and (max-width: 470px) {
     .donations span {
