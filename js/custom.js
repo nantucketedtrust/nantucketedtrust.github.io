@@ -156,7 +156,7 @@ $(window).load(function() {
     $('.flexslider').flexslider({
     animation: "fade",
     controlNav: true,
-    directionNav: false,
+    directionNav: true,
     slideshowSpeed: 8000,
     animationSpeed: 600,
     touch: true
